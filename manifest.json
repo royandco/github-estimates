@@ -1,0 +1,25 @@
+{
+	"name": "GitHub Estimates",
+	"version": "0.1.4",
+	"manifest_version": 2,
+	"description": "Provide estimates on GitHub issues.",
+	"author": "Roy & Co",
+	"content_scripts": [
+		{
+			"matches": [
+				"https://github.com/*",
+				"http://github.com/*"
+			],
+			"js": [
+				"bower_components/jquery/dist/jquery.min.js",
+				"main.js"
+			],
+			"run_at": "document_end"
+		}
+	],
+	"web_accessible_resources": [
+		"menu.html",
+		"event.html",
+		"overview.html"
+	]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "github-estimates",
+  "homepage": "https://github.com/royandco/side-projects",
+  "authors": [
+    "John Houlder <john@royand.co>"
+  ],
+  "description": "Provide estimates on GitHub issues",
+  "main": "main.js",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
