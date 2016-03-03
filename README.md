@@ -16,7 +16,7 @@ The extension works by scanning an issue for a specially formatted issue which d
 Furthermore, the extension also displays any estimates on the issues overview along with a total to give an idea on how long issues will take altogether.
 
 ### Development
-To work on this extension, clone/fork this repository on your local machine and then go to chrome://extensions. On the extensions page, ensure "Developer mode" is turned on then click "Load unpacked extension..." and locate the folder for this extension. Any JS changes need to be reloaded via the "Reload" link on the extension's item.
+To work on this extension, clone/fork this repository on your local machine and run `bower install` then go to chrome://extensions. On the extensions page, ensure "Developer mode" is turned on then click "Load unpacked extension..." and locate the folder for this extension. Any JS changes need to be reloaded via the "Reload" link on the extension's item.
 
 ### Icons
 Icons can be changed in the icons/ directory. Other icon sizes can be set in manifest.json for example:
